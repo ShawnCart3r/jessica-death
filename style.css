@@ -621,3 +621,608 @@ footer a {
     width: 100%;
   }
 }
+
+/* ===============================
+   Testimonials Section
+================================*/
+.hero {
+  background-color: #e0e0e0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+.home-safety-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-safety-header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+
+/* ======================================
+   Home Safety Two-Column Layout
+====================================== */
+
+.home-safety-section {
+  padding: 60px 20px;
+  background-color: #fdfdfd;
+}
+
+.home-safety-content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.home-safety-location,
+.home-safety-text {
+  flex: 1 1 300px;
+}
+
+.home-safety-location h2,
+.home-safety-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.home-safety-text h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.home-safety-location ul,
+.home-safety-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.home-safety-location ul li,
+.home-safety-text ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.home-safety-text p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-safety-content {
+    flex-direction: column;
+  }
+
+  .home-safety-location,
+  .home-safety-text {
+    width: 100%;
+  }
+}
+/* Contact Section */
+.contact {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+.doula-education-header {
+  text-align: center;
+  padding: 60px 20px 20px;
+  background-color: #f5f5f5;
+}
+
+.doula-education-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #222;
+  line-height: 1.4;
+}
+
+.doula-education-header h1 small {
+  font-size: 18px;
+  color: #666;
+  display: block;
+  margin-top: 5px;
+}
+
+
+/* ===============================
+   Death Doula Section
+================================= */
+
+.death-doula-section {
+  padding: 60px 20px;
+  background-color: #fcfcfc;
+}
+
+.doula-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.doula-header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.doula-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.doula-location,
+.doula-text {
+  flex: 1 1 300px;
+}
+
+.doula-location h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.doula-location ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #444;
+}
+
+.doula-text h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.doula-text h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.doula-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.doula-text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.doula-text ul li {
+  margin-bottom: 10px;
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .doula-content {
+    flex-direction: column;
+  }
+
+  .doula-location,
+  .doula-text {
+    width: 100%;
+  }
+}
+
+/* Lifestyle Check-In Header */
+.lifestyle-checkin-header {
+  text-align: center;
+  padding: 60px 20px 20px;
+  background-color: #f5f5f5;
+}
+
+.lifestyle-checkin-header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Section Layout */
+.lifestyle-checkin-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.lifestyle-checkin-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.checkin-location,
+.checkin-text {
+  flex: 1 1 300px;
+}
+
+.checkin-location h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.checkin-location ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #444;
+}
+
+.checkin-location li {
+  margin-bottom: 10px;
+}
+
+.checkin-text blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+  border-left: 4px solid #ccc;
+  padding-left: 15px;
+}
+
+.checkin-text blockquote span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+.checkin-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Reuse the CTA Button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .lifestyle-checkin-content {
+    flex-direction: column;
+  }
+
+  .checkin-location,
+  .checkin-text {
+    width: 100%;
+  }
+}
+
+/* Section Header */
+.swedish-cleaning-header {
+  text-align: center;
+  padding: 60px 20px 20px;
+  background-color: #f5f5f5;
+}
+
+.swedish-cleaning-header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Layout */
+.swedish-cleaning-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.swedish-cleaning-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cleaning-location,
+.cleaning-text {
+  flex: 1 1 300px;
+}
+
+.cleaning-location h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.cleaning-location ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #444;
+}
+
+.cleaning-text blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+  border-left: 4px solid #ccc;
+  padding-left: 15px;
+}
+
+.cleaning-text blockquote span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+.cleaning-text h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.cleaning-text h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #444;
+}
+
+.cleaning-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.cleaning-text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.cleaning-text ul li {
+  margin-bottom: 10px;
+}
+
+/* Button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .swedish-cleaning-content {
+    flex-direction: column;
+  }
+
+  .cleaning-location,
+  .cleaning-text {
+    width: 100%;
+  }
+}
+/* Section Header */
+.doula-terminal-header {
+  text-align: center;
+  padding: 60px 20px 20px;
+  background-color: #f5f5f5;
+}
+
+.doula-terminal-header h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.doula-terminal-header h1 small {
+  font-size: 18px;
+  color: #666;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Layout */
+.doula-terminal-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.doula-terminal-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.terminal-location,
+.terminal-text {
+  flex: 1 1 300px;
+}
+
+.terminal-location h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.terminal-location ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #444;
+}
+
+.terminal-text blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+  border-left: 4px solid #ccc;
+  padding-left: 15px;
+}
+
+.terminal-text blockquote span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+.terminal-text h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.terminal-text h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.terminal-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.terminal-text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.terminal-text ul li {
+  margin-bottom: 10px;
+}
+
+/* Reusable CTA Button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .doula-terminal-content {
+    flex-direction: column;
+  }
+
+  .terminal-location,
+  .terminal-text {
+    width: 100%;
+  }
+}
+
+
