@@ -83,16 +83,15 @@ nav a {
 }
 
 /* Social Media inside Nav */
-.social-menu {
+.social-icons {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
-.social-menu a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 16px;
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
 }
 
 /* 📱 Mobile Styles */
