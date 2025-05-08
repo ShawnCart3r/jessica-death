@@ -214,21 +214,58 @@ hero-image-section {
 
 .service-cards {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  gap: 20px;
+  padding: 20px;
 }
 
 .card {
-  flex: 1 1 300px;
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
+  width: 90%;
+  max-width: 360px;
+  background: teal;
+  border: 1px solid teal;
   border-radius: 8px;
+  overflow: hidden;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* ensures the whole image is shown */
+  max-height: 200px; /* optional cap */
+  margin: 0 auto;
+  display: block;
+}
+
+.card h3,
+.card p {
+  margin: 10px;
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+/* Mobile-specific tweaks */
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
+
+  .card img {
+    max-height: 180px; /* slightly smaller on mobile */
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.95rem;
+  }
+}
 /* Testimonials Section */
 .testimonials {
   padding: 60px 20px;
@@ -1385,4 +1422,7 @@ footer.tags span {
 
 .teal-button:hover {
   background-color: #006666;
+}
+h1{
+  color: white;
 }
