@@ -189,7 +189,7 @@ hero-image-section {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 24px;
-  background-color: #333;
+  background-color: teal;
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -1355,4 +1355,34 @@ footer.tags span {
   max-width: 100%;
   height: auto;
   border-radius: 10px; /* optional: rounded corners */
+}
+
+.center-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teal-button {
+  display: inline-block;
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.teal-button:hover {
+  background-color: #006666;
 }
